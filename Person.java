@@ -1,12 +1,16 @@
 import java.math.BigDecimal;
 
 public class Person {
+    public static final String HEIGHT = "180";
     private String name;
+    private String pesel;
     private BigDecimal salary;
 
     public Integer age() {
         return 40;
     }
 
-    public static final String HEIGHT = "180";
+    public String whatIsYourHobby() {
+        return "pizza";
+    }
 }
